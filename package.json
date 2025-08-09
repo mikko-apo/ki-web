@@ -1,0 +1,15 @@
+{
+  "name": "ki-web",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf dist",
+    "dev": "tsc -w -p ."
+  },
+  "devDependencies": {
+    "typescript": "5.9.2",
+    "rimraf": "6.0.1"
+  }
+}
